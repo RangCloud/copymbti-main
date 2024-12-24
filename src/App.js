@@ -11,6 +11,9 @@ function App() {
   }
   
   useEffect(()=>{
+
+    document.title = "MBTI Test";
+
     setVh();
 
     function onResize(){
