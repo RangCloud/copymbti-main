@@ -1,1 +1,0 @@
-https://www.youtube.com/watch?v=BsSZ5EbekI8 에서 설명해주시는거 보고 만들어봤습니다.
