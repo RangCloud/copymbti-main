@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import axios from 'axios';
 import './App.css';
 import mbtiImg from './freeImg/mbti.png';
 import resultImg from './freeImg/ghost-8250317_1280.png';
@@ -23,6 +24,19 @@ function App() {
     window.addEventListener('resize', onResize)
 
   },[])
+
+  const [userName, setUserName] = useState("");
+
+  const nameSave = async () => {
+    if(!userName.trim()) {
+      return;
+    }
+    try {
+      await axios.post('', {name : userName})
+    } catch (error) {
+      
+    }
+  };
 
   const [page, setPage] = useState(0);
 

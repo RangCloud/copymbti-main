@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 
 body{
-    background-color: #ffc0cb;
+    background-color: white;
 }
 
 .mbtiLayout{
@@ -19,6 +19,7 @@ body{
     width: 100%;
     max-height: 900px;
     height: 100%;
+    background-color: #ffc0cb;
 }
 .startLogo{
     display: flex;
@@ -57,6 +58,8 @@ body{
     box-sizing: border-box;
     font-size: 2.5rem;
     font-family: 'Gamja Flower', sans-serif;
+    background-color: #ffc0cb;
+    border-bottom: 5px solid green;
 }
 
 .questionList{
