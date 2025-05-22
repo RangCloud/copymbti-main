@@ -7,6 +7,9 @@
 
 .env
 
+#file
+server.js
+
 # testing
 /coverage
 
