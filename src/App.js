@@ -27,7 +27,7 @@ function App() {
 
   const [userName, setUserName] = useState("");
 
-  const nameSave = async () => {
+  const saveName = async () => {
     if(!userName.trim()) {
       return;
     }
