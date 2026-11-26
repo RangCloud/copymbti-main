@@ -26,3 +26,25 @@ server.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+
+# environment / secrets
+.env.*
+!.env.example
+*.pem
+*.key
+
+# editor / IDE / AI tool settings
+.vscode/
+.idea/
+*.swp
+.claude/
+CLAUDE.local.md
+
+# OS
+Thumbs.db
+desktop.ini
+
+# local caches
+.eslintcache
+.cache/
